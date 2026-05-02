@@ -41,9 +41,6 @@ export default function LoginPage() {
           <p className="text-text-secondary text-sm mt-1">
             – by simone
           </p>
-          <p className="text-text-secondary text-xs mt-3">
-            Smart Student Expense Tracker
-          </p>
         </div>
 
         {/* Card */}
