@@ -36,7 +36,10 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-bg px-4">
       <div className="w-full max-w-md">
         {/* Logo */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-8 relative">
+          <Link href="/landing" className="absolute top-0 right-0 text-[#E8B4B8] hover:text-[#D48A8F] transition-colors" title="A surprise for you">
+             ❤️
+          </Link>
           <h1 className="text-3xl font-bold text-olive">Kharche</h1>
           <p className="text-text-secondary text-sm mt-1">
             – by simone
